@@ -1,7 +1,7 @@
 ---
 title: "Week_7_exercises_GIS"
 author: "J.Blondeau"
-date: "2024-10-03"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -13,9 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Data
 
-All the data is the shared OneDrive under Week_7 and include...
-
-2 shapefiles
+3 shapefiles
 
 -   STEER_habitat_map
 -   Small_Sample_Domain

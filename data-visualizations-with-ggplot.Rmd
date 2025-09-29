@@ -1,7 +1,7 @@
 ---
 title: "Data Visualizations with ggplot"
 author: "J.Blondeau"
-date: "2027-07-27"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -26,11 +26,11 @@ In this instance, anytime you need to group by and summarize, you can just take 
 
 2. Create a point and line graph of biomass over time for Yellowtail Snapper ("OCY CHRY") outside the national park.
 
-3. Create a bar graph of biomass over time for each species grouped by protected_status.  Edit the the axis and legend titles to be more insightful.
+3. Create a bar graph of biomass over time for all parrotfish grouped by protected_status.  Edit the the axis and legend titles to be more insightful.
     - biomass units
     - Scientific name instead of SPECIES_CD
     - 0 = Open, 1 = VI National Park
     
-4. Create a bar graph of trophic-level mean biomass inside and outside VI national park for each species.
+4. Create a bar graph of trophic-level mean biomass inside and outside VI national park. Hint: You will calculate mean for all 4 years 
 
-5. Create a point and line plot of 'grouper' biomass (+- SE) over time; inside and outside park together.
+5. Create a point and line plot of 'grouper' biomass (+- SE) over time; inside and outside park plots will be on the same graph.
