@@ -11,7 +11,7 @@
 
 <meta name="author" content="J.Blondeau" />
 
-<meta name="date" content="2025-09-29" />
+<meta name="date" content="2026-09-30" />
 
 <title>Data Visualizations with ggplot</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">Data Visualizations with ggplot</h1>
 <h4 class="author">J.Blondeau</h4>
-<h4 class="date">2025-09-29</h4>
+<h4 class="date">2026-09-30</h4>
 
 </div>
 
@@ -363,21 +363,19 @@ datasets you need are in the /data directory.</p>
 <li>sttstj_fish_biomass</li>
 <li>taxonomic</li>
 </ol>
-<p>Inspect the sttstj_fish_biomass dataset. It is 3 years of biomass
+<p>Inspect the sttstj_fish_biomass dataset. It is 5 years of biomass
 (kg/177m2) data for 9 fish species inside the VI national park (prot =
 1) and outside the national park (prot = 0).</p>
 <p>In this instance, anytime you need to group by and summarize, you can
-just take the mean of biomass and SE. This would not always be
-appropriate, but for this case the exercises are for plotting and
-graphing.</p>
-<p>**put all your code in the .Rmd file inside a code chunk for each
-question. Annotate what you are doing so that you can reference them
-later.</p>
+just take the mean of biomass and SE. This is not always appropriate,
+but for this case the exercises are for plotting and graphing.</p>
 <ol style="list-style-type: decimal">
 <li><p>Create a line graph of biomass over time for Red hind (“EPI
-GUTT”) inside the national park.</p></li>
+GUTT”) inside the national park. The title of the graph should use
+Scientific name.</p></li>
 <li><p>Create a point and line graph of biomass over time for Yellowtail
-Snapper (“OCY CHRY”) outside the national park.</p></li>
+Snapper (“OCY CHRY”) outside the national park. The title of the graph
+should use <strong>italicized</strong> Scientific name.</p></li>
 <li><p>Create a bar graph of biomass over time for all parrotfish
 grouped by protected_status. Edit the the axis and legend titles to be
 more insightful.</p>
@@ -387,10 +385,10 @@ more insightful.</p>
 <li>0 = Open, 1 = VI National Park</li>
 </ul></li>
 <li><p>Create a bar graph of trophic-level mean biomass inside and
-outside VI national park. Hint: You will calculate mean for all 4
-years</p></li>
+outside VI national park. Hint: You will pool all 5 years</p></li>
 <li><p>Create a point and line plot of ‘grouper’ biomass (+- SE) over
-time; inside and outside park plots will be on the same graph.</p></li>
+time; inside and outside park plots will be on the same graph. Hint: SE
+= square root of var.</p></li>
 </ol>
 
 
